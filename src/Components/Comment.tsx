@@ -59,7 +59,7 @@ const Comment:React.FC<CommentProps> = ({setCurrentComment,id,content,isLiked,is
 
 
   return (
-    <div className={`w-[calc(100%-1rem)] text-black py-4 px-4  my-4 mx-2 rounded-xl bg-slate-300 ${className}`}>
+    <div className={`w-[calc(100%-1rem)] text-black py-4 px-4  my-4 mx-2 rounded-xl  ${className}`}>
         <div className=' ml-2'>{content}</div>
         <button onClick={()=>toggleStatus('isLiked','isDisLiked')} className='rounded-full p-2 m-2 bg-blue-300 text-blue-800' >{
             isLiked? (<BiSolidLike size={20} />) : (<BiLike size={20} />)

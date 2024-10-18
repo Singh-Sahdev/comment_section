@@ -86,7 +86,6 @@ const App = () => {
 	}
 
 	
-    console.log(generateRandomId())
 
 
     return (

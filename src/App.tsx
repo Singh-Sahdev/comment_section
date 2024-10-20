@@ -24,7 +24,6 @@ const App = () => {
 		for(let i = 0;i<comments.length;i++){
 			if(comments[i].id == currentComment){
 				comments[i].children.push(newComment)
-				
 				return
 			}
 			updateCurrentComment(comments[i].children,newComment)
